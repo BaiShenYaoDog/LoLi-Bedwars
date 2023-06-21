@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>LoLiBedWars-Parent</artifactId>
+    <groupId>cn.ChengZhiYa.LoLiBedWars</groupId>
+    <version>1.0.0</version>
+  </parent>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>7</source>
+          <target>7</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>cn.ChengZhiYa.LoLiBedWars.com</groupId>
+  <artifactId>LoLiBedWars-v1_8_r3</artifactId>
+
+  <dependencies>
+    <dependency>
+      <groupId>cn.ChengZhiYa.LoLiBedWars</groupId>
+      <artifactId>LoLiBedWars-Common</artifactId>
+      <version>1.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.azbh111</groupId>
+      <artifactId>craftbukkit-1.8.8</artifactId>
+      <version>R</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
